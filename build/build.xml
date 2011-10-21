@@ -467,7 +467,7 @@
         <echo message="Copying over new files..."/>
 
         <copy todir="./${dir.publish}">
-            <fileset dir="${dir.source}/" excludes="${file.default.exclude}, ${file.exclude}">
+            <fileset followsymlinks="true" dir="${dir.source}/" excludes="${file.default.exclude}, ${file.exclude}">
                 <!-- exclude files that are superseded by optimized versions with different names -->
                 <!-- this is not strictly necessary, but it avoids putting unreferenced files into your server -->
                 <exclude name="${dir.js}/**/*.js"/>
