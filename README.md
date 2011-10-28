@@ -1,3 +1,16 @@
+# HTML5 Boilerstrap
+
+This project is a combination of [HTML5 Boilerplate](http://html5boilerplate.com) and [Twitter Bootstrap](http://twitter.github.com/bootstrap/index.html)
+
+## Quick Start
+
+Clone the git repo and set up submodules  
+
+`git clone --recursive git@github.com:elgreg/html5-boilerstrap.git`
+
+
+# HTML5 Boilerplate documentation
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template that helps you build fast, robust, adaptable, and future-proof websites. Spend more time developing and less time reinventing the wheel.
