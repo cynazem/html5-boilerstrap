@@ -16,9 +16,35 @@
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: @elgreg
    ========================================================================== */
+body {
+  background: #fff;
+  padding-top: 40px;
+}
 
+  .masthead h1,
+  .masthead h2 {
+    font-family: "MolotRegular", Arial, sans-serif;
+    font-weight: normal;
+  }
+  
+  .masthead h1 {
+    color: #E3D7BF;
+    font-size: 5em;
+    text-shadow: 1px 1px 0px black, 2px 2px 0px #476871, 3px 3px 0px #476871, 4px 4px 0px #476871, 5px 5px 0px #476871, 6px 6px 0px #476871, 7px 7px 0px #476871;
+  }
+  
+  .masthead .bootstrap {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #00DAFD;
+    text-shadow: 1px 1px 0px black, 2px 2px 0px #476871, 3px 3px 0px #476871, 4px 4px 0px #476871, 5px 5px 0px #476871, 6px 6px 0px #476871, 7px 7px 0px #476871;
+  }
+  
+  .masthead h2 .bootstrap {
+    text-shadow: none;
+  }
+  
 
 
 

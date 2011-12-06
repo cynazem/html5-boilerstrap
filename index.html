@@ -32,99 +32,93 @@
 </head>
 
 <body>
-  <header class="topbar">
+  <nav class="topbar">
       <div class="topbar-inner">
         <div class="container-fluid">
-          <a class="brand" href="#">Project name</a>
+          <a class="brand" href="#">HTML5 BoilerStrap</a>
           <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#howto">How To</a></li>
+            <li><a href="#examples">Examples</a></li>
+            <li><a href="#todo">To Do</a></li>
             <li><a href="#contact">Contact</a></li>
+            
           </ul>
-          <p class="pull-right">Logged in as <a href="#">username</a></p>
+          <p class="pull-right">Mashed together by @elgreg</p>
         </div>
       </div>
+  </nav>
+  <header class="jumbotron masthead">
+   <div class="container">
+      <h1>HTML5 <i class="bootstrap">&#x2605;</i> <b>Boiler<span class="bootstrap">Strap</span></b></h1> 
+      <h2>A rock-solid default for HTML5 awesome combined with <span class="bootstrap">a toolkit from Twitter designed
+      to kickstart development of webapps and sites</span>.</h2>
+   </div>
   </header>
-
-  <div class="container-fluid" role="main">
-    <div class="sidebar">
-      <div class="well">
-        <h5>Sidebar</h5>
-        <ul>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-        <h5>Sidebar</h5>
-        <ul>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-        <h5>Sidebar</h5>
-        <ul>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="content">
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        <p><a class="btn primary large">Learn more &raquo;</a></p>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span6">
-          <h2>Heading</h2>
-          <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+  <article>
+    <section id="overview" class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="hero-unit">
+          <h1>A Mashup of <a href="http://html5boilerplate.com">HTML5 Boilerplate</a> & <a href="http://twitter.github.com/bootstrap">Twitter's Bootstrap</a></h1>
+          <p><a href="http://html5boilerplate.com">HTML5 Boilerplate</a>  is an amazing starting point for building an
+          HTML/CSS/JS based site. <a href="http://twitter.github.com/bootstrap">Twitter's Bootstrap</a>
+          makes rapid prototyping just that. This project aims to combine the two while keeping both HTML5 
+          Boilerplate's build scripts functioning and allowing you to use all of Bootstrap's CSS and JS awesomeness.
+          The project strives to leave the HTML5 boilerplate and bootstrap relatively untouched.
+          It's a work in progress, as evidenced by the <a href="#todo">todo</a> list.</p>
+          <p>What's next? Look at the <a href="#howto">How To</a> to learn how to get the repo and start your first
+          project. Already bored? Skip straight to some <a href="#examples">examples</a>.
         </div>
-        <div class="span5">
-          <h2>Heading</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="span5">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+    </section>
+    <section id="howto" class="container">
+        <h1>How To</h1>
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="span10">
+            <h2>Step 1</h2>
+            <p>git clone the project <i>recursively</i>. Bootstrap is included as a submodule.</p>
+            <pre>> git clone --recursive git@github.com:elgreg/html5-boilerstrap.git</pre>
+            <p><a class="btn" href="https://github.com/elgreg/html5-boilerstrap">View on Github</a></p>
+          </div>
+          <div class="span6">
+            <h2>Step 2</h2>
+            <p>Start editing /index.html, /css/style.css and /js/script.js and /js/plugins.js as you see fit.</p>
+            <p>Learn more about what to put where from the <a href="http://html5boilerplate.com/docs/Get-Started!/">boilerplate
+            docs</a>.</p>
+         </div>
         </div>
-      </div>
-
-      <hr>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span6">
-          <h2>Heading</h2>
-          <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+        <div class="row">
+          <div class="span8">
+            <h2>Step 3</h2>
+            <p>Take advantage of <a href="http://twitter.github.com/bootstrap">bootstrap</a>'s startup css and js for
+            <b>grid systems, typography, media, tables, forms, navigation, alerts, and popovers</b>.</p>
+          </div>
+          <div class="span8">
+            <h2>Step 4</h2>
+            <p>Publish! Use the <a href="http://html5boilerplate.com/docs/Build-script/">build script</a> from
+            boilerplate to create a publish directory with minified css, js, and more.</p>
+          </div>
         </div>
-        <div class="span5">
-          <h2>Heading</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="span5">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <footer>
-        <p>&copy; Company 2011</p>
-      </footer>
-    </div>
-  </div>
+    </section>
+    <section id="examples" class="container">
+      <h1>Examples</h1>
+      <p>See <a href="#todo">To Dos</a></p>
+    </section>
+    <section id="todo" class="container">
+      <h1>To Do</h1>
+      <ul>
+        <li>add less compilation to html5 boilerplate</li>
+      </ul>
+    </section>
+    <section id="contact" class="container">
+      <h1>Contact</h1>
+      <p>Twitter is best - I'm <a href="http://twitter.com/elgreg">@elgreg</a></p>
+    </section>
+  </article>
+  
+  <footer>
+    The End
+  </footer>
 
   <!-- JavaScript at the bottom for fast page loading -->
 
