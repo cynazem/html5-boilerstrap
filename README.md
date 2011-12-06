@@ -61,3 +61,11 @@ Anyone and everyone is welcome to contribute. Hundreds of developers have helped
 ### Everything else:
 
 The Unlicense (aka: public domain)
+=======
+# Hi Everyone! ☺
+
+## [This repo has moved!](https://github.com/h5bp/html5-boilerplate)
+
+# [HTML5 Boilerplate Github](https://github.com/h5bp/html5-boilerplate)
+
+Thank youuu
